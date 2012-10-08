@@ -76,7 +76,7 @@ if [ -e "$arq_filelist" ]; then
 	fi
 	else
 	echo ""
-	echo "Upgrade the list of archive before continuing: $0 -u"
+	echo "Upgrade the list of archive before continuing: $0 -U"
 	echo ""
 fi
 }
@@ -144,7 +144,7 @@ if [ -e "$arq_filelist" ]; then
 	fi
 	else
 	echo ""
-	echo "Upgrade the list of archive before continuing: $0 -u"
+	echo "Upgrade the list of archive before continuing: $0 -U"
 	echo ""
 fi
 }
@@ -168,7 +168,7 @@ search(){
 		fi
 	else
 		echo ""	
-		echo "Upgrade the list of archive before continuing: $0 -u"
+		echo "Upgrade the list of archive before continuing: $0 -U"
 		echo ""
 	fi
 
@@ -214,7 +214,7 @@ if [ -e "$arq_filelist" ]; then
 	fi
 	else
 	echo ""
-	echo "Upgrade the list of archive before continuing: $0 -u"
+	echo "Upgrade the list of archive before continuing: $0 -U"
 	echo ""
 fi
 }
